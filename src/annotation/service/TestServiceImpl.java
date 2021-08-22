@@ -13,7 +13,7 @@ import javax.annotation.Resource;
  **/
 @Service("testServiceImpl")
 public class TestServiceImpl implements TestService {
-    @Resource(name="testDaoImpl")
+    @Resource(name="TestDaoImpl")
     private TestDao testDao;
     @Override
     public void save(){
